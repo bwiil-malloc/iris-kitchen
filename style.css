@@ -166,18 +166,21 @@ button:hover{
   margin: -20px auto;
   text-shadow: 2px 2px 15px grey;
   width: 400px;
+  padding: 10px;
+  border-top: 2px solid lightsteelblue;
+  border-bottom: 2px solid lightsteelblue;
 }
 
 .sub-main{
   display: flex;
-  flex-direction: column;
   justify-content: space-around;
-  align-items: center;
+  align-items: flex-start;
   flex-wrap: wrap;
   border: 1px solid lightgrey;
   box-shadow: -8px -8px 8px lightgrey;
   border-radius: 10px;
-  margin: 50px 20px;
+  margin: 50px 10px;
+  background-color: ghostwhite;
 }
 
 .container{
@@ -186,11 +189,12 @@ button:hover{
   justify-content: center;
   align-items: center;
   width: 200px;
-  border: 1px solid lightgrey;
-  box-shadow: 8px 8px 8px lightgrey;
+  box-shadow: -15px -15px 10px white, 10px 10px 10px lightgrey;
   border-radius: 10px;
-  margin: 50px;
+  margin: 50px 5px;
   padding: 20px;
+  background: linear-gradient(to bottom, aliceblue, #fff);
+
 }
 
 .sub-img{
@@ -205,8 +209,15 @@ button:hover{
   display: flex;
   gap: 100px;
   justify-content: space-between;
+  text-align: center;
   font-size: 60px;
   color: darkred;
+}
+
+.ic:hover{
+  background-color: lightsteelblue;
+  border-radius: 100px;
+  color: white;
 }
 
 .sub-search{
@@ -233,10 +244,67 @@ button:hover{
     font-style: italic;
     color: lightsteelblue;
   }
+  
+  .end-butt{
+    margin-top: -70px;
+    align-self: center;
+    justify-self: center;
+  }
+  
+.foot{
+  display: flex;
+  border: 1px solid lightsteelblue;
+  justify-content: flex-start;
+  align-items: flex-end;
+  margin: 50px 20px;
+  padding: 30px;
+  flex: 1 1 auto;
+  gap: 40px;
+  background-image: url('/images/snacks2.jpg');
+  background-size: 1000px;
+  background-repeat: no-repeat;
+  font-weight: 600;
+}
+
+.last-foot1{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  padding: 10px 20px;
+  height: 300px;
+  width: 400px;
+  border: 1px solid lightsteelblue;
+  color: white;
+  border-radius: 10px;
+  background-image: url('/images/noodles3.jpg');
+  background-size: contain;
+}
+
+.last-foot2{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  padding: 10px 20px;
+  height: 300px;
+  width: 400px;
+  border: 1px solid lightsteelblue;
+  color: black;
+  border-radius: 10px;
+  background-image: url('/images/rice3.jpg');
+  background-size: contain;
+  text-shadow: 3px 3px 10px white;
+}
 
 .footer{
+  gap: 20px;
+  flex-direction: column;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 100px;
+  margin-top: 40px;
+  background-color: lightsteelblue;
+  font-weight: 500;
+  padding: 20px 0;
+  border-top: 3px solid lightsteelblue;
+  border-bottom: 3px solid lightsteelblue;
 }
